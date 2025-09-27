@@ -8,3 +8,12 @@ cv2.waitKey()	A keyboard binding function that waits for a specified time (in mi
 
 cv2.destroyAllWindows()	Destroys all the OpenCV windows that were created.
 
+.shape	(As a NumPy array attribute) Returns a tuple representing the dimensions of the image: (height, width, channels). For grayscale images, it returns (height, width).
+
+cv2.resize()	Resizes an image to a specified size. Essential for aligning images or adapting them to different processing requirements.
+
+cv2.cvtColor()	Converts an image from one color space to another, such as BGR (Blue-Green-Red), which is OpenCV's default format, to Grayscale or HSV (Hue-Saturation-Value).
+
+cv2.split()	Splits a multi-channel image (like BGR) into individual single-channel images (e.g., separate Blue, Green, and Red arrays).
+
+cv2.merge()	Merges multiple single-channel arrays back into a multi-channel image.
